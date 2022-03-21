@@ -1,8 +1,21 @@
+import Link from 'next/link'
 import React from 'react'
+import { useRouter } from 'next/router';
 
 function Home() {
+    const router = useRouter()
+
+    const handleClick = ()=>{
+        router.push("/posts")
+    }
   return (
-    <div>Home page</div>
+    <div>
+        <Link href="/blog">Blog</Link>
+        <hr/>
+        <h1>Home page</h1>    
+
+        <button onClick={handleClick}>Posts</button>
+    </div>
   )
 }
 
