@@ -29,6 +29,7 @@ export async function getStaticPaths(){
   })
   return {
     paths,
+    // if fallback is false, then any paths not included getStaticPaths will return 404 page
     fallback: false
   }
 }
