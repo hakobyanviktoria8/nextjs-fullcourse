@@ -1,12 +1,12 @@
 {
  "products":[   {
-    "price": 100,
+    "price": 10010,
     "id": 1,
     "title": "delectus aut autem",
     "completed": false
     },
     {
-    "price": 200,
+    "price": 20002,
     "id": 2,
     "title": "quis ut nam facilis et officia qui",
     "completed": false

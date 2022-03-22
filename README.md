@@ -36,3 +36,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 install json-server:  https://www.npmjs.com/package/json-server
 make json data: db.json 
 run :yarn serve-json
+was error: npx json-server --watch -p 4000 db.json
