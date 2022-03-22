@@ -11,6 +11,7 @@ function Home() {
   return (
     <div>
         <Link href="/blog">Blog</Link>
+        <Link href="/users">Users</Link>
         <hr/>
         <h1>Home page</h1>    
 
