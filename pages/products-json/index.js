@@ -9,7 +9,3 @@ function Products() {
 }
 
 export default Products
-
-// export async function getStaticProps(){
-    // const res = await fetch("l")
-// }
