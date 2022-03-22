@@ -2,13 +2,13 @@ import React from 'react'
 import User from './user'
 
 function UsersList({users}) {
-    console.log(users)
+    // console.log(users)
 
   return (
     <div>
         <h1>Users List page</h1> 
         {users.map(user=>
-        <User user={user}/>
+            <User user={user}/>
         )}
     </div>
   )

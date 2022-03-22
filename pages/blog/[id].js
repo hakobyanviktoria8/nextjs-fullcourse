@@ -3,7 +3,7 @@ import {useRouter} from "next/router"
 
 function BlogId() {
     const router = useRouter().query.id
-    console.log(router);
+    // console.log(router);
   return (
     <div>Blog Id is {router}</div>
   )
