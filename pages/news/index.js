@@ -23,6 +23,7 @@ export default News
 export async function getServerSideProps(){
     const res = await fetch("http://localhost:4000/news")
     const data = await res.json()
+    console.log("News component rendering");
 
     return {
         props :{
