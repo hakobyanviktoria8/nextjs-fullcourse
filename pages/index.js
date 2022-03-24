@@ -13,6 +13,7 @@ function Home() {
         <Link href="/blog">Blog</Link>
         <Link href="/users">Users</Link>
         <Link href="/products-json">Products</Link>
+        <Link href="/news">News</Link>
         <hr/>
         <h1>Home page</h1>    
 
