@@ -22,7 +22,8 @@ function Home() {
             border: "none",
             outline: "none",
           }}
-        > Posts</button>
+        > Posts | </button>
+        <Link href="/events"> Events</Link> |
 
         <hr/>
         <h1>Home page</h1>    
