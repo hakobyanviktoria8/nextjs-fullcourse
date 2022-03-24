@@ -35,12 +35,13 @@ export async function getStaticProps(){
     const res = await fetch("https://jsonplaceholder.typicode.com/posts")
     const data = await res.json()
 
-    if(!data.id){
-        console.log("here");
-        return{
-            notFound:true,
-        }
-    }
+    // comment that becouse when notFound is true, and id isn't return 404 page
+    // if(!data.id){
+    //     console.log("here");
+    //     return{
+    //         notFound:true,
+    //     }
+    // }
 
     return {
         props:{

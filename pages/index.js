@@ -10,14 +10,23 @@ function Home() {
     }
   return (
     <div>
-        <Link href="/blog">Blog</Link>
-        <Link href="/users">Users</Link>
-        <Link href="/products-json">Products</Link>
-        <Link href="/news">News</Link>
+        <Link href="/blog"> Blog</Link> | 
+        <Link href="/users"> Users</Link> |
+        <Link href="/products-json"> Products</Link> |
+        <Link href="/news"> News</Link> |
+        <Link href="/dashboard"> Dashboard</Link> |
+        <button 
+          onClick={handleClick}
+          style={{
+            background: "none",
+            border: "none",
+            outline: "none",
+          }}
+        > Posts</button>
+        
         <hr/>
         <h1>Home page</h1>    
 
-        <button onClick={handleClick}>Posts</button>
     </div>
   )
 }
