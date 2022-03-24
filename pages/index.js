@@ -14,7 +14,7 @@ function Home() {
         <Link href="/users"> Users</Link> |
         <Link href="/products-json"> Products</Link> |
         <Link href="/news"> News</Link> |
-        <Link href="/dashboard"> Dashboard</Link> |
+        <Link href="/dashboard-data"> Dashboard</Link> |
         <button 
           onClick={handleClick}
           style={{
@@ -23,7 +23,7 @@ function Home() {
             outline: "none",
           }}
         > Posts</button>
-        
+
         <hr/>
         <h1>Home page</h1>    
 

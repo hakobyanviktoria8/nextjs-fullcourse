@@ -22,12 +22,11 @@ function Dashboard() {
 
     return (
         <div>
-            <h1>All Dashboard</h1>
+            <h1>Dashboard</h1>
             <p>Dashboard posts {dashboardData?.posts}</p>
             <p>Dashboard likes {dashboardData?.likes}</p>
             <p>Dashboard followers {dashboardData?.followers}</p>
             <p>Dashboard following {dashboardData?.following}</p>
-            {console.log(dashboardData)}
         </div>
     )
 }

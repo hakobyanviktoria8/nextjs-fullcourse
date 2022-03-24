@@ -33,7 +33,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+<!-- work on db server -->
 install json-server:  https://www.npmjs.com/package/json-server
 make json data: db.json 
 run :yarn serve-json
 was error: npx json-server --watch -p 4000 db.json
+
+<!-- add swr to be outomaticli render client side featching data -->
+npm install swr

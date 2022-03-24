@@ -3,7 +3,7 @@
         "posts":5,
         "likes":10,
         "followers":15,
-        "following":20
+        "following":200
     },
     "news":[
         {
