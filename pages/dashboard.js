@@ -16,10 +16,13 @@ function Dashboard() {
         fetchData()
     },[])
 
+    if(isLoading){
+        return <h2>Loading...</h2>
+    }
+
     return (
         <div>
             <h1>All Dashboard</h1>
-            {isLoading && <h2>Loading...</h2>}
             <p>Dashboard posts {dashboardData?.posts}</p>
             <p>Dashboard likes {dashboardData?.likes}</p>
             <p>Dashboard followers {dashboardData?.followers}</p>
