@@ -41,3 +41,4 @@ was error: npx json-server --watch -p 4000 db.json
 
 <!-- add swr to be outomaticli render client side featching data -->
 npm install swr
+<!-- https://swr.vercel.app/docs/getting-started -->
